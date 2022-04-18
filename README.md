@@ -19,4 +19,3 @@ Para iniciar os clientes -> para cada cliente do chat, abra um terminal diferent
 ```
 	./client
 ``` 
->>>>>>> 4c594b668a79ca8ee83e08127f928f3190e5e328
