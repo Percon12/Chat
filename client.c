@@ -230,7 +230,7 @@ int main()
 		{
 			bufferSend = generateMessage("", CLOSE, 0);
 			send(localSocket, bufferSend, MAXDATASIZE, 0);
-			printAlert("Até mais ver, em francês, Au revoir");
+			printAlert("Adeus!");
 
 			free(bufferSend);
 			free(bufferRcv);
