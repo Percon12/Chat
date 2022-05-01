@@ -17,7 +17,7 @@
 #define MAXDATASIZE 500
 #define MAXALLOC 500
 
-int main()
+int main(int argc, char *argv[])
 {
 	char userName[50];
 	char messageChat[250];
@@ -42,8 +42,8 @@ int main()
 	// Configuração do socket para a conexão
 	// Mais detalhes consulte as manpages
 	remoto.sin_family = AF_INET;
-	remoto.sin_port = htons(31337);
-	remoto.sin_addr.s_addr = inet_addr("127.0.0.1");
+	remoto.sin_port = htons(atoi(argv[2]));
+	remoto.sin_addr.s_addr = inet_addr(argv[1]);
 	bzero(&(remoto.sin_zero), 8); // Trocar por memser
 
 	// Função de conexão ao host remoto
