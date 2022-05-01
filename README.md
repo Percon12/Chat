@@ -14,11 +14,12 @@ O arquivo bash realiza a compilação do projeto, juntamente com a instalação 
 Para iniciar o server -> abra um terminal e execute o comando:
 
 ```
-	./server
+	./server XXXX
 ```
-
+Onde XXXX se refere a porta que será utilizada pelo servidor.
 Para iniciar os clientes -> para cada cliente do chat, abra um terminal diferente e execute o comando:
 
 ```
-	./client
+	./client XXX.XXX.XXX.XXX PPPP
 ```
+O conjunto de X se refere ao ip do Servidor que sera conectado, e PPPP a porta que o servidor está rodando.
