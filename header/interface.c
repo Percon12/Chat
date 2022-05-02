@@ -100,9 +100,9 @@ void printAlert(char *message)
 void printHowWorks()
 {
 	printHeader("Funcionalidades");
-	printAlert("O Chat é simples e intuitivo!");
 	printf("\n");
-	printf("Siga os passos: \n");
+	system("cowsay O Chat é simples e intuitivo!.Siga os passos:");
+	printf("\n");
 	printf("* Escolha a opçao conectar-se.\n");
 	printf("* Insira um nome valido.\n");
 	printf("* A opção usuários online mostra todos os usuários em tempo real.\n");
@@ -117,29 +117,16 @@ void printHowWorks()
 void printAnimation()
 {
 	system("clear");
-	printf("\n\n\n\n\n\n");
-	printf("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
+	printf("\n\n");
+	system("cowsay OLA!, bem vindo ao chat virtual.");
 	usleep(100000);
-	printf("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣴⣾⣿⣿⣿⣿⣿⣿⣷⣦⡀⠀⠀⠀⠀⢸⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣤⣤⣤⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
-	usleep(100000);
-	printf("⠀⠀⠀⠀⠀⠀⠀⠀⢀⣾⣿⣿⣿⠿⠛⠛⠛⠛⢿⣿⣿⣿⣦⠀⠀⠀⢸⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
-	usleep(100000);
-	printf("⠀⠀⠀⠀⠀⠀⠀⢀⣿⣿⣿⡿⠁⠀⠀⠀⠀⠀⠀⠙⣿⣿⣿⡇⠀⠀⢸⣿⣿⣿⠀⢀⣤⣴⣶⣤⣤⡀⠀⠀⠀⠀⠀⠀⣠⣤⣤⣶⣶⣤⣤⣄⠀⠀⠀⢠⣤⣼⣿⣿⣿⣤⣤⠀⠀⠀⠀⠀⠀⠀\n");
-	usleep(100000);
-	printf("⠀⠀⠀⠀⠀⠀⠀⣸⣿⣿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠉⠁⠀⠀⢸⣿⣿⣿⣴⣿⣿⣿⣿⣿⣿⣿⣆⠀⠀⠀⢠⣾⣿⣿⡿⠿⠿⣿⣿⣿⣷⡄⠀⠸⠿⢿⣿⣿⣿⠿⠿⠀⠀⠀⠀⠀⠀⠀\n");
-	usleep(100000);
-	printf("⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⡟⠁⠀⠀⠈⢻⣿⣿⣿⠀⠀⠀⠿⠿⠿⠏⠀⠀⠀⠀⣿⣿⣿⡇⠀⠀⠀⢸⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
-	usleep(100000);
-	printf("⠀⠀⠀⠀⠀⠀⠀⢿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⠁⠀⠀⠀⠀⢸⣿⣿⣿⠀⠀⠀⠀⢀⣠⣤⣤⣶⣶⣾⣿⣿⣿⡇⠀⠀⠀⢸⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
-	usleep(100000);
-	printf("⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣇⠀⠀⠀⠀⠀⠀⠀⠀⣶⣶⣶⡖⠀⠀⢸⣿⣿⣿⠀⠀⠀⠀⠀⢸⣿⣿⣿⠀⠀⠀⣴⣿⣿⡿⠛⠛⠉⠉⣿⣿⣿⡇⠀⠀⠀⢸⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
-	usleep(100000);
-	printf("⠀⠀⠀⠀⠀⠀⠀⠀⢻⣿⣿⣿⣦⡀⠀⠀⠀⠀⣀⣼⣿⣿⣿⠃⠀⠀⢸⣿⣿⣿⠀⠀⠀⠀⠀⢸⣿⣿⣿⠀⠀⢰⣿⣿⣿⡁⠀⠀⠀⢀⣿⣿⣿⡇⠀⠀⠀⢸⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
-	usleep(100000);
-	printf("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢿⣿⣿⣿⣿⣶⣶⣿⣿⣿⣿⡿⠃⠀⠀⠀⢸⣿⣿⣿⠀⠀⠀⠀⠀⢸⣿⣿⣿⠀⠀⠈⢿⣿⣿⣿⣶⣶⣶⣿⣿⣿⣿⣇⠀⠀⠀⠸⣿⣿⣿⣦⣤⠀⠀⠀⠀⠀⠀⠀\n");
-	usleep(100000);
-	printf("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠻⠿⠿⠿⠿⠛⠋⠁⠀⠀⠀⠀⠀⠘⠛⠛⠛⠀⠀⠀⠀⠀⠘⠛⠛⠛⠀⠀⠀⠈⠙⠿⠿⠿⠟⠋⠁⠘⠛⠛⠛⠂⠀⠀⠀⠙⠻⠿⠿⠿⠀⠀⠀⠀⠀⠀⠀\n");
-	usleep(100000);
+	sleep(2);
 	printf("\n");
-	sleep(1);
+	system("cowsay Eu sou a vaca.");
+	sleep(2);
+	system("cowsay -f tux É eu sou o pinguim.");
+	sleep(2);
+	printf("\n");
+	system("cowsay E nos iremos te auxiliar nesse chat. Vamos lá ?");
+	sleep(2);
 }
